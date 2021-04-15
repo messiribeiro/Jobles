@@ -1,0 +1,19 @@
+{
+  "name": "Jobles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/claquete.ico --out=packages"
+  },
+  "keywords": [],
+  "author": "Droffnats",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  },
+  "dependencies": {
+    "node-notifier": "^9.0.1"
+  }
+}
